@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+	int a,b;
+    float p,q;
+    
+    scanf("%d %d\n %f %f" ,&a,&b,&p,&q);
+    int sum=a+b;
+    int diff=a-b;
+    float fsum=p+q;
+    float fdiff=p-q;
+    
+    printf("%d %d\n%0.1f %0.1f",sum,diff,fsum,fdiff);
+    
+    return 0;
+}
